@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="br.com.example.andre.jokenpo.GameActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/escolha_uma_op_o"
+        android:textSize="24sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="@dimen/img_width_heigth"
+            android:layout_height="@dimen/img_width_heigth"
+            android:background="@drawable/pedra"
+            android:id="@+id/btnPedra"/>
+        <Button
+            android:layout_width="@dimen/img_width_heigth"
+            android:layout_height="@dimen/img_width_heigth"
+            android:background="@drawable/papel"
+            android:id="@+id/btnPapel"/>
+        <Button
+            android:layout_width="@dimen/img_width_heigth"
+            android:layout_height="@dimen/img_width_heigth"
+            android:background="@drawable/tesoura"
+            android:id="@+id/btnTesoura"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jogada_do_pc"
+        android:textSize="24sp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivPlayPc"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:id="@+id/tvResultado"/>
+</LinearLayout>

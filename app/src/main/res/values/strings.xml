@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JoKenPo</string>
+    <string name="escolha_uma_op_o">Escolha Uma Opção</string>
+    <string name="jogada_do_pc">Jogada do PC</string>
+    <string name="vitoria">Você Venceu</string>
+    <string name="derrota">Você Perdeu</string>
+    <string name="empate">Empate</string>
+</resources>
